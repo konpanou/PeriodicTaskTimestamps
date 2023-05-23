@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  periodic-timestamps:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: on-failure
+    ports:
+      - "8000:8000"
