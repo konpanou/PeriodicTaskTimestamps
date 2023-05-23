@@ -12,7 +12,7 @@ Before building the application we need to download any missing dependencies. We
 go mod download
 ```
 
-In order to build the application we can issue the following command from the project root directory:
+In order to run the application we can issue the following command from the project root directory:
 
 ```
 go build -o ./periodictimestamps
